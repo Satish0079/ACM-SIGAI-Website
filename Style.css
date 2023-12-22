@@ -110,6 +110,7 @@ body {
 .navbar-brand img {
     width: 75px;
     height: auto;
+    padding-top: 10px;
 }
 
 
