@@ -105,24 +105,33 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="Script.js"></script>
 
    
-    <title>ACM-SIGAI TCET </title>
+    <title>ACM-SIGAI TCET</title>
 </head>
 <body>
+  <div class="mob-res-div" id="ResDiv">
+  <h2 class="responsive-text">ACM SIG-AI</h2>
+  <div class="divider"></div>
+  
+  </div>
     <nav class="navbar">
         <div class="navbar-brand">
-            <img src="./Images/SIG_AI.png" alt="Logo Image">
+          
+            <img src="./Images/SIG_AI.png" class="logo" id="logo" alt="Logo Image">
         </div>
-        <div class="navbar-list">
+        <div class="navbar-list" id="TopNav">
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><button><a href="#contact">Contact Us</a></button></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#publications">Publications</a></li>
+              <li><button><a href="#contact">Contact Us</a></button></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a></li>
             </ul>
         </div>
+        
     </nav>
 <section id="home"></section>
 <section class="home">
@@ -146,7 +155,7 @@ if (isset($_POST['submit'])) {
   <span class="home-imgHover"></span>
 </section>
 
-<section id="about"></section>
+<!-- <section id="about"></section> -->
 <div class="about-us">
   <div class="container">
       <div class="row">
@@ -373,7 +382,7 @@ if (isset($_POST['submit'])) {
           <script>document.getElementById('dateFilled').value = new Date().toISOString();</script>
           </section>
 
-    <script src="Script.js"></script>
+    
     <script src="Gallery.js"></script>
 </body>
 </html>
