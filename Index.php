@@ -499,11 +499,13 @@ if (isset($_POST['submit'])) {
     <section class="team">
       <div class="cont">
       <h2 class="teamheading">Meet our Team</h2>
+          <br>
+          <br>
       <div class="container team__container">
           <article class="team__member">
               <div class="img">
                   <div class="team__member-image">
-                      <img src="./Images/3.jpeg" >
+                      <img src="./Images/alisha.png" >
                   </div>
                   <div class="team__member-info">
                       <h4>Alisha Joseph</h4>
@@ -517,7 +519,7 @@ if (isset($_POST['submit'])) {
           </article>
           <article class="team__member">
               <div class="team__member-image">
-                  <img src="./Images/3.jpeg" >
+                  <img src="./Images/vivek.png" >
               </div>
               <div class="team__member-info">
                   <h4>Vivek Pandey</h4>
@@ -530,7 +532,7 @@ if (isset($_POST['submit'])) {
           </article>
           <article class="team__member">
               <div class="team__member-image">
-                  <img src="./Images/3.jpeg" >
+                  <img src="./Images/hamza.png" >
               </div>
               <div class="team__member-info">
                   <h4>Hamza Khan</h4>
@@ -543,7 +545,7 @@ if (isset($_POST['submit'])) {
           </article>
           <article class="team__member">
               <div class="team__member-image">
-                  <img src="./Images/3.jpeg" >
+                  <img src="../Images/anushka.png" >
               </div>
               <div class="team__member-info">
                   <h4>Anushka Patil</h4>
@@ -556,7 +558,7 @@ if (isset($_POST['submit'])) {
           </article>
           <article class="team__member">
               <div class="team__member-image">
-                  <img src="./Images/3.jpeg" >
+                  <img src="./Images/ietisha.png" >
               </div>
               <div class="team__member-info">
                   <h4>Ietisha Rathod</h4>
@@ -569,7 +571,7 @@ if (isset($_POST['submit'])) {
           </article>
           <article class="team__member">
               <div class="team__member-image">
-                  <img src="./Images/3.jpeg" >
+                  <img src="./Images/vaishnavi.png" >
               </div>
               <div class="team__member-info">
                   <h4>Vaishnavi Sirimalla</h4>
@@ -582,7 +584,7 @@ if (isset($_POST['submit'])) {
           </article>
           <article class="team__member">
               <div class="team__member-image">
-                  <img src="./Images/3.jpeg" >
+                  <img src="./Images/zaheer.png" >
               </div>
               <div class="team__member-info">
                   <h4>Zaheer Khan</h4>
@@ -595,7 +597,7 @@ if (isset($_POST['submit'])) {
           </article>
           <article class="team__member">
               <div class="team__member-image">
-                  <img src="./Images/3.jpeg" >
+                  <img src="./Images/jayant.png" >
               </div>
               <div class="team__member-info">
                   <h4>Jayant Nag Sai Vasa</h4>
@@ -608,7 +610,7 @@ if (isset($_POST['submit'])) {
           </article>
           <article class="team__member">
               <div class="team__member-image">
-                  <img src="./Images/3.jpeg" >
+                  <img src="./Images/tej.png" >
               </div>
               <div class="team__member-info">
                   <h4>Tej-Parmar</h4>
@@ -621,7 +623,7 @@ if (isset($_POST['submit'])) {
           </article>
           <article class="team__member">
               <div class="team__member-image">
-                  <img src="./Images/3.jpeg" >
+                  <img src="./Images/dhruv.png" >
               </div>
               <div class="team__member-info">
                   <h4>Dhruv Singh</h4>
