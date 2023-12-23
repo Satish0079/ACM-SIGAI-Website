@@ -485,7 +485,7 @@ if (isset($_POST['submit'])) {
           </div>
       
           <div class="magazine-item" onclick="window.location.href='https://pubhtml5.com/hiwar/uqpn/'">
-            <img src="./Images/volume2.jpg" alt="Magazine Image 2">
+            <img src="./Images/volume 2.jpg" alt="Magazine Image 2">
             <div class="magazine-item-title">Tejas Volume 2</div>
           </div>
       
