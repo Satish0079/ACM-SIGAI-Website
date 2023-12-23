@@ -478,19 +478,19 @@ if (isset($_POST['submit'])) {
         <div class="section-title">Our Publications</div>
       
         <div class="magazine-items">
-          <div class="magazine-item" onclick="window.location.href='your_first_link_here'">
-            <img src="your_first_image_url_here" alt="Magazine Image 1">
-            <div class="magazine-item-title">First Magazine</div>
+          <div class="magazine-item" onclick="window.location.href='https://online.pubhtml5.com/hiwar/abef/'">
+            <img src="./Images/volume1.jpg" alt="Magazine Image 1">
+            <div class="magazine-item-title">Tejas Volume 1</div>
           </div>
       
-          <div class="magazine-item" onclick="window.location.href='your_second_link_here'">
-            <img src="your_second_image_url_here" alt="Magazine Image 2">
-            <div class="magazine-item-title">Second Magazine</div>
+          <div class="magazine-item" onclick="window.location.href='https://pubhtml5.com/hiwar/uqpn/'">
+            <img src="./Images/volume2.jpg" alt="Magazine Image 2">
+            <div class="magazine-item-title">Tejas Volume 2</div>
           </div>
       
-          <div class="magazine-item" onclick="window.location.href='your_third_link_here'">
-            <img src="your_third_image_url_here" alt="Magazine Image 3">
-            <div class="magazine-item-title">Third Magazine</div>
+          <div class="magazine-item" onclick="window.location.href='https://pubhtml5.com/hiwar/vfrp/'">
+            <img src="./Images/volume3.jpg" alt="Magazine Image 3">
+            <div class="magazine-item-title">Tejas Volume 3.1</div>
           </div>
         </div>
       </div>
@@ -523,11 +523,11 @@ if (isset($_POST['submit'])) {
                   </div>
                   <div class="information">
                     <img src="./Images/email.png" class="icon" alt="" />
-                    <p>acm-sigai@gmail.com</p>
+                    <p>acmsigai10@gmail.com</p>
                   </div>
                   <div class="information">
                     <img src="./Images/phone.jpg" class="icon" alt="" />
-                    <p>123-456-789</p>
+                    <p>9967142376</p>
                   </div>
                 </div>
       
