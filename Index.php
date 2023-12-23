@@ -101,6 +101,7 @@ if (isset($_POST['submit'])) {
     <link rel="icon" type="image/x-icon" href="./Images/logo.png">
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="Gallery.css">
+    <link rel="stylesheet" href="magazine.css">
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
