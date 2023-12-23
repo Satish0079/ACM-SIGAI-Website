@@ -116,7 +116,7 @@ if (isset($_POST['submit'])) {
   <div class="divider"></div>
   
   </div>
-    <nav class="navbar">
+    <nav class="navbar scroll" id="navbar">
         <div class="navbar-brand">
           
             <img src="./Images/SIG_AI.png" class="logo" id="logo" alt="Logo Image">

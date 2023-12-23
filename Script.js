@@ -28,4 +28,35 @@ function myFunction() {
       } else {
         z.className = "logo";
       }
+      var a = document.getElementById("ResDiv");
+      var b = document.getElementById("navbar");
+      if (a.classList.contains("mob-res-div") && a.classList.contains("responsive")) {
+        b.classList.add("responsive");
+      } else {
+        b.classList.remove("responsive");
+      }
   }
+
+  let scrollTimer;
+
+  window.addEventListener('scroll', function() {
+    const navbar = document.getElementById('navbar');
+    const scrollPosition = window.scrollY;
+
+    clearTimeout(scrollTimer);
+  
+    scrollTimer = setTimeout(function() {
+      if (scrollPosition > 0) {   // Use > 700 for the effect to come in after 1 viewport height of scroll
+        navbar.classList.add('highlight');
+      } else {
+        navbar.classList.remove('highlight');
+      }
+    }, 200); // 200 milliseconds
+  });
+  
+// For checking scroll Position
+
+  // window.addEventListener('scroll', function() {
+  //   const scrollPosition = window.scrollY;
+  //   console.log('Scroll position:', scrollPosition);
+  // });  

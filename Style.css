@@ -108,21 +108,26 @@ ul {
 }
 
 .scroll {
-    background: #3887be;
-    top: -100px;
+    /* background: #3887be; */
+    top: 20px;
     border-radius: 20px;
     width: 90%;
-    animation: fadedown 0.4s ease 1s forwards;
+    transition: top 0.5s ease;
 }
 
-@keyframes fadedown {
+/* @keyframes fadedown {
     0% {
         top: -100px;
     }
     100% {
         top: 20px;
     }
-}
+} */
+
+.navbar.highlight {
+    top: 15px;
+    background: #3887be;
+  }
 
 /* .navbar-brand {
     font-size: 20px;
@@ -172,6 +177,13 @@ ul {
         display: block;
         
     }
+    
+    .navbar.responsive.highlight {
+        top: 20px;
+        transition: none;
+        background: none;
+
+      }
     .navbar-list.responsive ul li {
         margin: 0 0 10px 0; 
     }
@@ -208,7 +220,7 @@ ul {
     .navbar-list.responsive .icon{
         position: absolute;
         top: 35%;
-        right: 5%;
+        right: 3.8%;
     }
     .navbar-list.responsive a {
       float: none;
