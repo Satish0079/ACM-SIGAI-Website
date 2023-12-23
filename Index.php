@@ -586,5 +586,6 @@ if (isset($_POST['submit'])) {
 
     
     <script src="Gallery.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
