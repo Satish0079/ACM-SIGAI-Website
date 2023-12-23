@@ -264,7 +264,7 @@ if (isset($_POST['submit'])) {
                 <img src="collage/Screenshot 2023-12-22 194715.jpg">
             </div>
             <div class="post__info">
-                <a class="category__button">Fiestas</a>
+                <a class="category__button">Events</a>
                 <h2 class="post__title"><a href="post.html">Zephyr 2023</a></h2>
                 <p class="post__body">
                     The three-day fun activity event held at TCET was a resounding success,
@@ -274,7 +274,7 @@ if (isset($_POST['submit'])) {
                 </p>
                 <div class="post__author">
                     <div class="post__author-avatar">
-                        <img src="./Images_Events/tcet.jpg"alt="Club image">
+                        <img src="./Images/99.jpg"alt="Club image">
                     </div>
                     <div class="post__author-info">
                         <h5>By:TCET</h5>
