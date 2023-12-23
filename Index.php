@@ -457,10 +457,29 @@ if (isset($_POST['submit'])) {
 
    <!-- ----------------------------------publication section Begins Here ------------------------------------- -->
 
-    <!-- <section id="publications">
+    <section id="publications">
         
-    </section> -->
-
+    </section>
+ <div class="magazine-section">
+        <div class="section-title">Our Publications</div>
+      
+        <div class="magazine-items">
+          <div class="magazine-item" onclick="window.location.href='your_first_link_here'">
+            <img src="your_first_image_url_here" alt="Magazine Image 1">
+            <div class="magazine-item-title">First Magazine</div>
+          </div>
+      
+          <div class="magazine-item" onclick="window.location.href='your_second_link_here'">
+            <img src="your_second_image_url_here" alt="Magazine Image 2">
+            <div class="magazine-item-title">Second Magazine</div>
+          </div>
+      
+          <div class="magazine-item" onclick="window.location.href='your_third_link_here'">
+            <img src="your_third_image_url_here" alt="Magazine Image 3">
+            <div class="magazine-item-title">Third Magazine</div>
+          </div>
+        </div>
+      </div>
 
     
   
