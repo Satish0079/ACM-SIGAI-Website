@@ -554,7 +554,7 @@ if (isset($_POST['submit'])) {
                 <!-- <span class="circle one"></span>
                 <span class="circle two"></span> -->
       
-               <form method="post" action="Index.php" id="contactForm" onsubmit="submitForm(event)">
+               <form method="post" action="index.php" id="contactForm" onsubmit="submitForm(event)">
 
                 <h3 class="title">Contact us</h3>
 
@@ -678,7 +678,6 @@ if (isset($_POST['submit'])) {
           <script>document.getElementById('dateFilled').value = new Date().toISOString();</script>
           </section>
 
-    
     <script src="Gallery.js"></script>    
 </body>
 </html>
