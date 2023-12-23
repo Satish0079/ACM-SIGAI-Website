@@ -286,6 +286,7 @@ if (isset($_POST['submit'])) {
         </div>
     </section>
     <!-- =========================== END OF FEATURED ==================== -->
+      
 
 
 
