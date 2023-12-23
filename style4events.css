@@ -208,24 +208,45 @@ Single Post
 ================================================================
 */
 .singlepost{
-    margin: 6rem 0 2rem;
+    padding: 6rem 0 2rem;
+    background-color: #0f0f3e;
 }
 
 .singlepost__container{
+    font-family:'Montserrat', sans-serif;
+    background-color: #0f0f3e;
     width: var(--form-width);
     background: var(--color-gray-900);
     padding: 1rem 2rem 3rem;
-}
 
+}
+  
 .singlepost__thumbnail{
     margin-top: 1.5rem;
+    width: 100%; 
+    height: 100%;
+    overflow: hidden;
 }
 
+.singlepost__thumbnail img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+  }
+
 .singlepost__container p{
+    color: white;
     margin-top: 1rem;
     line-height: 1.7;
 }
-
+.post__author-info{
+    color: white;
+}
+.post__author-avatar img{
+    width: 100%; 
+    height: auto; 
+    display: block;
+}
 
 /*==============================================================
 (Medium Devices)
