@@ -631,7 +631,7 @@ if (isset($_POST['submit'])) {
         <div class="wrapper">
           <div class="footer-widget">
             <a href="#">
-              <img src="images/logo.png" class="logo" />
+              <img src="./Images/SIG_AI.png" class="logo" />
             </a>
             <p class="desc">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
