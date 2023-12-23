@@ -113,8 +113,8 @@ if (isset($_POST['submit'])) {
     />
     <!-- stylesheet -->
     <link rel="stylesheet" href="footer.css" />
-    <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="Gallery.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="magazine.css">
     <link rel="stylesheet" href="style4events.css">
