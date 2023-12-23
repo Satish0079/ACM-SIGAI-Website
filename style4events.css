@@ -286,7 +286,7 @@ Single Post
 */
 
 @media screen and (max-width: 600px) {
-    section{
+    .events{
         margin-top: 2rem;
     }
 

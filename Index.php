@@ -104,8 +104,8 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="magazine.css">
     <link rel="stylesheet" href="style4events.css">
+    <link rel="stylesheet" href="footer.css">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -557,6 +557,68 @@ if (isset($_POST['submit'])) {
               </div>
             </div>
           </div>
+
+          <!-- FOOTER -->
+          
+          <section class="footer">
+          <footer>
+      <div class="container-footer">
+        <div class="wrapper-footer">
+          <div class="footer-widget">
+            <div class="footer-logo">
+            <a href="#">
+              <img src="./Images/SIG_AI.png" width="100px" height="100px" class="logo" />
+            </a>
+            </div>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              deserunt magni recusandae ut! Natus?
+            </p>
+            <ul class="socials">
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-widget quicklinks">
+            <h6>Quick Link</h6>
+            <ul class="links">
+              <li><a href="#">home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">service</a></li>
+              <li><a href="#">support</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+         
+          <div class="map-section">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.66489986486!2d72.87099646149932!3d19.209833197681018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0e57647569d%3A0xc0aec329c82d3555!2sThakur%20College%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1703237073948!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+        </div>
+        <div class="copyright-wrapper">
+          <p>© 2023 TCET ACM SIG-AI</p>
+        </div>
+      </div>
+    </footer>
+          </section>
 
           <!-- POP UP -->
 

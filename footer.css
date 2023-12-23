@@ -1,0 +1,166 @@
+  .footer{
+    margin: 0;
+    padding: 0;
+    /* min-height: 100vh; */
+    background-color: #eeeeee;
+    font-family: "Heebo", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  
+  footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+  }
+  
+  .container-footer {
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px; /* Increased padding for better spacing */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  .wrapper-footer {
+    display: flex;
+    justify-content: space-around; /* Adjusted to space-around for better alignment */
+    flex-wrap: wrap;
+  }
+  .wrapper-footer .footer-widget {
+    width: calc(30% - 20px); /* Adjusted width for better alignment and spacing */
+    margin: 0 10px 50px;
+    padding: 0 10px; /* Adjusted padding for better spacing */
+  }
+  
+  .wrapper-footer .footer-widget:nth-child(1) {
+    width: calc(60% - 20px); /* Adjusted width for better alignment and spacing */
+    margin-right: 10px;
+  }
+  
+  .wrapper-footer .map-section {
+    width: calc(100% - 20px); /* Adjusted width for better alignment and spacing */
+    margin: 0 10px 50px;
+  }
+  
+  /* Styles for the icons and links */
+  .wrapper-footer .footer-widget .socials,
+  .wrapper-footer .footer-widget .links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .wrapper-footer .footer-widget .socials li,
+  .wrapper-footer .footer-widget .links li {
+    list-style: none;
+  }
+  
+  .wrapper-footer .footer-widget .socials li a,
+  .wrapper-footer .footer-widget .links li a {
+    width: 44px;
+    height: 44px;
+    margin-right: 15px; /* Increased margin for better spacing */
+    color: #ffffff;
+    background-color: rgba(3, 127, 243, 0.5);
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-out;
+  }
+  
+  .wrapper-footer .footer-widget .socials li a:hover,
+  .wrapper-footer .footer-widget .links li a:hover {
+    background-color: #037ef3;
+  }
+  
+  .wrapper-footer .footer-widget h6 {
+    color: #585978;
+    margin: 10px 0 35px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .wrapper-footer .footer-widget .links li {
+    list-style: none;
+  }
+  
+  .wrapper-footer .footer-widget .links li a {
+    color: #585978;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 32px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .wrapper-footer .footer-widget .links li a:hover {
+    color: #037ef3;
+  }
+  
+  /* Rest of the styles for the map section */
+  
+  @media (max-width: 992px) {
+    .container-footer {
+      max-width: 960px;
+    }
+  
+    .wrapper-footer .footer-widget,
+    .wrapper-footer .footer-widget:nth-child(1),
+    .wrapper-footer .map-section {
+      width: calc(50% - 20px); /* Adjusted width for better alignment and spacing */
+    }
+  }
+
+  .footer-logo{
+    padding-top: 40px;
+  }
+  .footer-widget.quicklinks{
+    padding-top: 90px;
+  }
+  
+  @media (max-width: 768px) {
+    .container-footer {
+      max-width: 720px;
+    }
+  
+    .wrapper-footer .footer-widget,
+    .wrapper-footer .footer-widget:nth-child(1),
+    .wrapper-footer .map-section {
+      width: 100%;
+      margin: 0 0 50px;
+    }
+    .footer-widget.quicklinks{
+        padding-top: 0;
+      }  
+  }
+  
+  .map-section {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .map-section iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+  }
+  .copyright-wrapper {
+    padding: 20px 0;
+    border-top: 1px solid rgba(88, 89, 120, 0.4);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20
+  }
+  .copyright-wrapper p{
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+  }
+
