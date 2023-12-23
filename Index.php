@@ -609,22 +609,22 @@ if (isset($_POST['submit'])) {
             </p>
             <ul class="socials">
               <li>
-                <a href="#">
+                <a href="www.facebook.com">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="www.twitter.com">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/tcet_acm.sigai">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/tcet-acm-sigai">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
@@ -633,11 +633,11 @@ if (isset($_POST['submit'])) {
           <div class="footer-widget quicklinks">
             <h6>Quick Link</h6>
             <ul class="links">
-              <li><a href="#">home</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">service</a></li>
-              <li><a href="#">support</a></li>
-              <li><a href="#">contact</a></li>
+              <li><a href="#home">home</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#event">service</a></li>
+              <li><a href="#contact">support</a></li>
+              <li><a href="#contact">contact</a></li>
             </ul>
           </div>
          
