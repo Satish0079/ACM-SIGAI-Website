@@ -162,15 +162,15 @@ if (isset($_POST['submit'])) {
       <p>Student's Chapter</p>
 
       <div class="btn-box">
-          <a href="#">Get Started</a>
-          <a href="#">Let's Talk</a>
+          <a href="#about">Get Started</a>
+          <a href="#contact">Let's Talk</a>
       </div>
   </div>
 
   <div class="home-sci">
-      <a href="#"><i class='bx bxl-facebook'></i></a>
-      <a href="#"><i class='bx bxl-instagram' ></i></a>
-      <a href="#"><i class='bx bxl-linkedin' ></i></a>
+      <a href="www.facebook.com"><i class='bx bxl-facebook'></i></a>
+      <a href="https://www.instagram.com/tcet_acm.sigai"><i class='bx bxl-instagram' ></i></a>
+      <a href="https://www.linkedin.com/company/tcet-acm-sigai"><i class='bx bxl-linkedin' ></i></a>
   </div>
 
   <span class="home-imgHover"></span>
@@ -186,9 +186,9 @@ if (isset($_POST['submit'])) {
               <h2><h3></h3></h2>
               <p id="about-description" ></p>
               <div class="social-links">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                  <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/tcet_acm.sigai"><i class="fab fa-instagram"></i></a>
               </div>
               <a href="" class="btn">Learn More</a>
           </div>
@@ -534,16 +534,16 @@ if (isset($_POST['submit'])) {
                 <div class="social-media">
                   <p>Connect with us :</p>
                   <div class="social-icons">
-                    <a href="#">
+                    <a href="www.facebook.com">
                       <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#">
+                    <a href="www.twitter.com">
                       <i class="fab fa-twitter"></i>
                     </a>
                     <a href="#">
-                      <i class="fab fa-instagram"></i>
+                      <i class="https://www.instagram.com/tcet_acm.sigai"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/company/tcet-acm-sigai">
                       <i class="fab fa-linkedin-in"></i>
                     </a>
                   </div>
@@ -635,7 +635,7 @@ if (isset($_POST['submit'])) {
             <ul class="links">
               <li><a href="#home">home</a></li>
               <li><a href="#about">about</a></li>
-              <li><a href="#event">service</a></li>
+              <li><a href="#events">service</a></li>
               <li><a href="#contact">support</a></li>
               <li><a href="#contact">contact</a></li>
             </ul>
