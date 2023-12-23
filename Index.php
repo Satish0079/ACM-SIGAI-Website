@@ -99,6 +99,20 @@ if (isset($_POST['submit'])) {
       crossorigin="anonymous"
     ></script>
     <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="Gallery.css">
     <link rel="stylesheet" href="contact.css" />
@@ -457,10 +471,29 @@ if (isset($_POST['submit'])) {
 
    <!-- ----------------------------------publication section Begins Here ------------------------------------- -->
 
-    <!-- <section id="publications">
+    <section id="publications">
         
-    </section> -->
-
+    </section>
+ <div class="magazine-section">
+        <div class="section-title">Our Publications</div>
+      
+        <div class="magazine-items">
+          <div class="magazine-item" onclick="window.location.href='https://online.pubhtml5.com/hiwar/abef/'">
+            <img src="./Images/volume1.jpg" alt="Magazine Image 1">
+            <div class="magazine-item-title">Tejas Volume 1</div>
+          </div>
+      
+          <div class="magazine-item" onclick="window.location.href='https://pubhtml5.com/hiwar/uqpn/'">
+            <img src="./Images/volume2.jpg" alt="Magazine Image 2">
+            <div class="magazine-item-title">Tejas Volume 2</div>
+          </div>
+      
+          <div class="magazine-item" onclick="window.location.href='https://pubhtml5.com/hiwar/vfrp/'">
+            <img src="./Images/volume3.jpg" alt="Magazine Image 3">
+            <div class="magazine-item-title">Tejas Volume 3.1</div>
+          </div>
+        </div>
+      </div>
 
     
   
@@ -490,11 +523,11 @@ if (isset($_POST['submit'])) {
                   </div>
                   <div class="information">
                     <img src="./Images/email.png" class="icon" alt="" />
-                    <p>acm-sigai@gmail.com</p>
+                    <p>acmsigai10@gmail.com</p>
                   </div>
                   <div class="information">
                     <img src="./Images/phone.jpg" class="icon" alt="" />
-                    <p>123-456-789</p>
+                    <p>9967142376</p>
                   </div>
                 </div>
       
@@ -647,5 +680,77 @@ if (isset($_POST['submit'])) {
 
     
     <script src="Gallery.js"></script>
+
+
+
+
+
+
+
+
+<footer>
+      <div class="container">
+        <div class="wrapper">
+          <div class="footer-widget">
+            <a href="#">
+              <img src="./Images/SIG_AI.png" class="logo" />
+            </a>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              deserunt magni recusandae ut! Natus?
+            </p>
+            <ul class="socials">
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h6>Quick Link</h6>
+            <ul class="links">
+              <li><a href="#">home</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">service</a></li>
+              <li><a href="#">support</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+         
+          <div class="map-section">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.66489986486!2d72.87099646149932!3d19.209833197681018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0e57647569d%3A0xc0aec329c82d3555!2sThakur%20College%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1703237073948!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+        </div>
+        <div class="copyright-wrapper">
+          <p>
+            copyright@2024 TCET ACM-SIGAI. All Rights Reserved
+           
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+    
 </body>
 </html>
