@@ -4,11 +4,11 @@
 <!-- Change port to 3307 in case of conflict between XAMPP's mySql server and already present and running mySql server otherwise 3306 will work fine -->
 
 <?php
-$servername = "sql104.infinityfree.com";   //localhost
-$username = "if0_35666108";               //root
-$password = "gHUF9w9iBHxRJn";             //""
-$db_name = "if0_35666108_dbtest";       //finale
-$conn = new mysqli($servername, $username, $password, $db_name, 3306);
+$servername = "localhost";     //"sql104.infinityfree.com";   //localhost
+$username = "root"   ;     //"if0_35666108";               //root
+$password = "";           //"gHUF9w9iBHxRJn";             //""
+$db_name ="finale";         //"if0_35666108_dbtest";       //finale
+$conn = new mysqli($servername, $username, $password, $db_name, 3307);
 if($conn->connect_error){
     die("Connection failed".$conn->connect_error);
 }
