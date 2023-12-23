@@ -99,6 +99,20 @@ if (isset($_POST['submit'])) {
       crossorigin="anonymous"
     ></script>
     <link rel="icon" type="image/x-icon" href="./Images/logo.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="footer.css" />
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="Gallery.css">
     <link rel="stylesheet" href="contact.css" />
