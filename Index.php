@@ -102,10 +102,16 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="Gallery.css">
     <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="style4events.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&
+    display=swap" rel="stylesheet">
     <script src="Script.js"></script>
+    <script src="Gallery.js"></script>
 
    
     <title>ACM-SIGAI TCET</title>
@@ -199,37 +205,6 @@ if (isset($_POST['submit'])) {
 </script>
 </section>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br><br>
-<br>
-<br>
-
-
-
-   <!-- ----------------------------------publication section Begins Here ------------------------------------- -->
-
-    <!-- <section id="publications">
-        
-    </section> -->
 
     <!-- ----------------------------Gallery section------------------------- -->
     <div class="wrapper">
@@ -261,6 +236,231 @@ if (isset($_POST['submit'])) {
     <br>
     <br>
     <br>
+
+
+       <!-- Events Section -->
+<section class="events" id="events">
+  <div class="events-div" id="events-div">
+
+
+  <section class="featured">
+        <div class="container featured__container">
+            <div class="post__thumbnail">
+                <img src="collage/Screenshot 2023-12-22 194715.jpg">
+            </div>
+            <div class="post__info">
+                <a class="category__button">Fiestas</a>
+                <h2 class="post__title"><a href="post.html">Zephyr 2023</a></h2>
+                <p class="post__body">
+                    The three-day fun activity event held at TCET was a resounding success,
+                    showcasing the vibrant spirit and creativity of the student community. 
+                    Organized by various student committees, the event aimed to provide an entertaining platform
+                    for students to unwind, engage in diverse activities, and foster a sense of camaraderie.
+                </p>
+                <div class="post__author">
+                    <div class="post__author-avatar">
+                        <img src="./Images_Events/tcet.jpg"alt="Club image">
+                    </div>
+                    <div class="post__author-info">
+                        <h5>By:TCET</h5>
+                        <small>October 4th - 6th,2023</small>
+                        <small>10AM - 6PM</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================== END OF FEATURED ==================== -->
+
+
+
+
+    <section class="posts">
+        <div class="container post__container">
+            <article class="post">
+                <div class="post__thumbnail">
+                    <img src="./Images_Events/1.1.jpg" alt="">
+                </div>
+                <div class="post__info">
+                    <a href="" class="category__button">Competitions</a>
+                    <h3 class="post__title">
+                        <a href="post.html">ACM & SIG-AI National Level Coding Competition</a>
+                    </h3>
+                    <p class="post__body">
+                        The coding competition, organized by SuperAI Community Stakeholder in collaboration with TCET ACM-SIGAI,
+                        demonstrated successful execution and a collaborative effort. The use of the HackerRank platform ensured
+                        objective evaluation of participants' solutions.
+                    </p>
+                    <div class="post__author">
+                        <div class="post__author-avatar">
+                            <img src="./Images_Events/SIG_AI.png" alt="icon">
+                        </div>
+                        <div class="post__author-info">
+                            <h5>By:ACM & SIG-AI</h5>
+                            <small>13th October, 2023</small>
+                            <small>: 2:30 PM to 5:30 PM</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post__thumbnail">
+                    <img src="./Images_Events/3.1.png" alt="">
+                </div>
+                <div class="post__info">
+                    <a href="" class="category__button">IV Visits</a>
+                    <h3 class="post__title">
+                        <a href="post.html">ACM & SIG-AI Local Industrial Visit</a>
+                    </h3>
+                    <p class="post__body">
+                        On August 25, 2023, the Thakur College of Engineering & Technology's Artificial Intelligence
+                        & Machine Learning Department organized a local industrial visit for its AI&ML students at
+                        Vervali Systems pvt ltd in Vasai West, Mumbai.
+                    </p>
+                    <div class="post__author">
+                        <div class="post__author-avatar">
+                            <img src="./Images_Events/SIG_AI.png" alt="icon">
+                        </div>
+                        <div class="post__author-info">
+                            <h5>By:ACM & SIG-AI</h5>
+                            <small>August 25th, 2023</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post__thumbnail">
+                    <img src="./Images_Events/4.1.jpg" alt="">
+                </div>
+                <div class="post__info">
+                    <a href="" class="category__button">Talks</a>
+                    <h3 class="post__title">
+                        <a href="post.html">ACM & SIG-AI National Level Expert Talk</a>
+                    </h3>
+                    <p class="post__body">
+                        A national level workshop on 'Intellectual Property Rights and IP Management for startups'
+                        was conducted by TCET ACM-SIGAI.  
+                        By attending this webinar, students now have a better understanding of what intellectual
+                        property entails, including patents, trademarks, copyrights, and trade secrets.
+                    </p>
+                    <div class="post__author">
+                        <div class="post__author-avatar">
+                            <img src="./Images_Events/SIG_AI.png" alt="icon">
+                        </div>
+                        <div class="post__author-info">
+                            <h5>By:ACM & SIG-AI</h5>
+                            <small>August 4th, 2023</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post__thumbnail">
+                    <img src="./Images_Events/5.1.jpg" alt="">
+                </div>
+                <div class="post__info">
+                    <a href="" class="category__button">Seminars</a>
+                    <h3 class="post__title">
+                        <a href="post.html">ACM & SIG-AI National Level Online Seminar</a>
+                    </h3>
+                    <p class="post__body">
+                        A national level online seminar on 'Innovation and Start-up Ecosystem Enablers'
+                        was conducted by TCET ACM-SIGAI.  
+                    </p>
+                    <div class="post__author">
+                        <div class="post__author-avatar">
+                            <img src="./Images_Events/SIG_AI.png" alt="icon">
+                        </div>
+                        <div class="post__author-info">
+                            <h5>By:ACM & SIG-AI</h5>
+                            <small>August 21st, 2023</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post__thumbnail">
+                    <img src="./Images_Events/6.1.jpg" alt="">
+                </div>
+                <div class="post__info">
+                    <a href="" class="category__button">Seminars</a>
+                    <h3 class="post__title">
+                        <a href="post.html">Seminar on Higher Studies</a>
+                    </h3>
+                    <p class="post__body">
+                        A seminar on Higher Studies was conducted by TCET ACM-SIGAI in 
+                        collaboration with CareerLabs Technologies Pvt Ltd.
+                        Participants gained a deeper understanding of the importance
+                        and benefits of pursuing higher studies. They now have a clearer
+                        perspective on how advanced education can contribute to their personal
+                        and professional development.
+                    </p>
+                    <div class="post__author">
+                        <div class="post__author-avatar">
+                            <img src="./Images_Events/SIG_AI.png" alt="icon">
+                        </div>
+                        <div class="post__author-info">
+                            <h5>By:ACM & SIG-AI</h5>
+                            <small>1st November, 2023</small>
+                            <small>12 pm - 1 pm</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post__thumbnail">
+                    <img src="./Images_Events/1.1.jpg" alt="">
+                </div>
+                <div class="post__info">
+                    <a href="" class="category__button">Wild Life</a>
+                    <h3 class="post__title">
+                        <a href="post.html">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit!</a>
+                    </h3>
+                    <p class="post__body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente tenetur incidunt quam 
+                        explicabo esse aperiam nesciunt asperiores. Ea, facere 
+                        doloribus.
+                    </p>
+                    <div class="post__author">
+                        <div class="post__author-avatar">
+                            <img src="" alt="icon">
+                        </div>
+                        <div class="post__author-info">
+                            <h5>By:ACM</h5>
+                            <small>August 24, 2023</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- =========================== END OF POSTS ==================== -->
+
+
+
+    <section class="category__buttons">
+    <div class="category__buttons-container">
+        <a href="" class="category__button">Fiestas</a>
+        <a href="" class="category__button">IV Visits</a>
+        <a href="" class="category__button">Seminars</a>
+        <a href="" class="category__button">Interaction</a>
+        <a href="" class="category__button">Competitions</a>
+        <a href="" class="category__button">Talks</a>
+      </div>
+    </section> 
+    <!-- =========================== END OF CATEGORIES ==================== -->
+
+  </div>
+  <!-- End of events section -->
+</section>
+
+   <!-- ----------------------------------publication section Begins Here ------------------------------------- -->
+
+    <!-- <section id="publications">
+        
+    </section> -->
+
+
     
   
   
@@ -383,6 +583,6 @@ if (isset($_POST['submit'])) {
           </section>
 
     
-    <script src="Gallery.js"></script>
+
 </body>
 </html>
