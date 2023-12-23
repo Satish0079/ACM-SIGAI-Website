@@ -118,7 +118,6 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="magazine.css">
     <link rel="stylesheet" href="style4events.css">
-    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="team.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
