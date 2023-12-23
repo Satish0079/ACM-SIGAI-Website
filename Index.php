@@ -227,9 +227,10 @@ if (isset($_POST['submit'])) {
 
    <!-- ----------------------------------publication section Begins Here ------------------------------------- -->
 
-    <!-- <section id="publications">
+    <section id="publications">
         
-    </section> -->
+    </section>
+    
 
     <!-- ----------------------------Gallery section------------------------- -->
     <div class="wrapper">
