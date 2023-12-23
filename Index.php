@@ -261,7 +261,7 @@ if (isset($_POST['submit'])) {
   <section class="featured">
         <div class="container featured__container">
             <div class="post__thumbnail">
-                <img src="collage/Screenshot 2023-12-22 194715.jpg">
+                <img src="./Images/99.jpg">
             </div>
             <div class="post__info">
                 <a class="category__button">Events</a>
@@ -274,7 +274,7 @@ if (isset($_POST['submit'])) {
                 </p>
                 <div class="post__author">
                     <div class="post__author-avatar">
-                        <img src="./Images/99.jpg"alt="Club image">
+                        <img src="./Images/98.jpg"alt="Club image">
                     </div>
                     <div class="post__author-info">
                         <h5>By:TCET</h5>
