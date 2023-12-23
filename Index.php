@@ -119,7 +119,7 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="magazine.css">
     <link rel="stylesheet" href="style4events.css">
     <link rel="stylesheet" href="footer.css">
-    
+    <link rel="stylesheet" href="team.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
      <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
@@ -162,15 +162,15 @@ if (isset($_POST['submit'])) {
       <p>Student's Chapter</p>
 
       <div class="btn-box">
-          <a href="#">Get Started</a>
-          <a href="#">Let's Talk</a>
+          <a href="#about">Get Started</a>
+          <a href="#contact">Let's Talk</a>
       </div>
   </div>
 
   <div class="home-sci">
-      <a href="#"><i class='bx bxl-facebook'></i></a>
-      <a href="#"><i class='bx bxl-instagram' ></i></a>
-      <a href="#"><i class='bx bxl-linkedin' ></i></a>
+      <a href="www.facebook.com"><i class='bx bxl-facebook'></i></a>
+      <a href="https://www.instagram.com/tcet_acm.sigai"><i class='bx bxl-instagram' ></i></a>
+      <a href="https://www.linkedin.com/company/tcet-acm-sigai"><i class='bx bxl-linkedin' ></i></a>
   </div>
 
   <span class="home-imgHover"></span>
@@ -186,9 +186,9 @@ if (isset($_POST['submit'])) {
               <h2><h3></h3></h2>
               <p id="about-description" ></p>
               <div class="social-links">
-                  <a href=""><i class="fab fa-facebook-f"></i></a>
-                  <a href=""><i class="fab fa-twitter"></i></a>
-                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                  <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/tcet_acm.sigai"><i class="fab fa-instagram"></i></a>
               </div>
               <a href="" class="btn">Learn More</a>
           </div>
@@ -261,10 +261,10 @@ if (isset($_POST['submit'])) {
   <section class="featured">
         <div class="container featured__container">
             <div class="post__thumbnail">
-                <img src="collage/Screenshot 2023-12-22 194715.jpg">
+                <img src="./Images/99.jpg">
             </div>
             <div class="post__info">
-                <a class="category__button">Fiestas</a>
+                <a class="category__button">Events</a>
                 <h2 class="post__title"><a href="post.html">Zephyr 2023</a></h2>
                 <p class="post__body">
                     The three-day fun activity event held at TCET was a resounding success,
@@ -274,7 +274,7 @@ if (isset($_POST['submit'])) {
                 </p>
                 <div class="post__author">
                     <div class="post__author-avatar">
-                        <img src="./Images_Events/tcet.jpg"alt="Club image">
+                        <img src="./Images/98.jpg"alt="Club image">
                     </div>
                     <div class="post__author-info">
                         <h5>By:TCET</h5>
@@ -286,6 +286,7 @@ if (isset($_POST['submit'])) {
         </div>
     </section>
     <!-- =========================== END OF FEATURED ==================== -->
+      
 
 
 
@@ -484,7 +485,7 @@ if (isset($_POST['submit'])) {
           </div>
       
           <div class="magazine-item" onclick="window.location.href='https://pubhtml5.com/hiwar/uqpn/'">
-            <img src="./Images/volume2.jpg" alt="Magazine Image 2">
+            <img src="./Images/volume 2.jpg" alt="Magazine Image 2">
             <div class="magazine-item-title">Tejas Volume 2</div>
           </div>
       
@@ -493,9 +494,149 @@ if (isset($_POST['submit'])) {
             <div class="magazine-item-title">Tejas Volume 3.1</div>
           </div>
         </div>
+<!--       </div>
+-------------Team Section -------------------------- -->
+    <section class="team">
+      <div class="cont">
+      <h2 class="teamheading">Meet our Team</h2>
+          <br>
+          <br>
+      <div class="container team__container">
+          <article class="team__member">
+              <div class="img">
+                  <div class="team__member-image">
+                      <img src="./Images/alisha.png" >
+                  </div>
+                  <div class="team__member-info">
+                      <h4>Alisha Joseph</h4>
+                      <p>Chairperson</p>
+                  </div>
+                  <div class="team__member-socials">
+                      <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                      <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                  </div>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/vivek.png" >
+              </div>
+              <div class="team__member-info">
+                  <h4>Vivek Pandey</h4>
+                  <p>Vice-Chairperson</p>
+              </div>
+              <div class="team__member-socials">
+                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/hamza.png" >
+              </div>
+              <div class="team__member-info">
+                  <h4>Hamza Khan</h4>
+                  <p>Secretary</p>
+              </div>
+              <div class="team__member-socials">
+                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="../Images/anushka.png" >
+              </div>
+              <div class="team__member-info">
+                  <h4>Anushka Patil</h4>
+                  <p>Event Manager</p>
+              </div>
+              <div class="team__member-socials">
+                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/ietisha.png" >
+              </div>
+              <div class="team__member-info">
+                  <h4>Ietisha Rathod</h4>
+                  <p>Treasurer</p>
+              </div>
+              <div class="team__member-socials">
+                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/vaishnavi.png" >
+              </div>
+              <div class="team__member-info">
+                  <h4>Vaishnavi Sirimalla</h4>
+                  <p>Web Master</p>
+              </div>
+              <div class="team__member-socials">
+                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/zaheer.png" >
+              </div>
+              <div class="team__member-info">
+                  <h4>Zaheer Khan</h4>
+                  <p>Sponsorship Head</p>
+              </div>
+              <div class="team__member-socials">
+                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/jayant.png" >
+              </div>
+              <div class="team__member-info">
+                  <h4>Jayant Nag Sai Vasa</h4>
+                  <p>Publication Head</p>
+              </div>
+              <div class="team__member-socials">
+                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/tej.png" >
+              </div>
+              <div class="team__member-info">
+                  <h4>Tej-Parmar</h4>
+                  <p>Public-relation Head</p>
+              </div>
+              <div class="team__member-socials">
+                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/dhruv.png" >
+              </div>
+              <div class="team__member-info">
+                  <h4>Dhruv Singh</h4>
+                  <p>Technical Head</p>
+              </div>
+              <div class="team__member-socials">
+                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
       </div>
-
-    
+  </div>
+  </section>
   
   
 
@@ -534,16 +675,16 @@ if (isset($_POST['submit'])) {
                 <div class="social-media">
                   <p>Connect with us :</p>
                   <div class="social-icons">
-                    <a href="#">
+                    <a href="www.facebook.com">
                       <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#">
+                    <a href="www.twitter.com">
                       <i class="fab fa-twitter"></i>
                     </a>
                     <a href="#">
-                      <i class="fab fa-instagram"></i>
+                      <i class="https://www.instagram.com/tcet_acm.sigai"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/company/tcet-acm-sigai">
                       <i class="fab fa-linkedin-in"></i>
                     </a>
                   </div>
@@ -609,22 +750,22 @@ if (isset($_POST['submit'])) {
             </p>
             <ul class="socials">
               <li>
-                <a href="#">
+                <a href="www.facebook.com">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="www.twitter.com">
                   <i class="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/tcet_acm.sigai">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/tcet-acm-sigai">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li>
@@ -633,11 +774,11 @@ if (isset($_POST['submit'])) {
           <div class="footer-widget quicklinks">
             <h6>Quick Link</h6>
             <ul class="links">
-              <li><a href="#">home</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">service</a></li>
-              <li><a href="#">support</a></li>
-              <li><a href="#">contact</a></li>
+              <li><a href="#home">home</a></li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#events">service</a></li>
+              <li><a href="#contact">support</a></li>
+              <li><a href="#contact">contact</a></li>
             </ul>
           </div>
          
