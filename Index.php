@@ -112,7 +112,7 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&
     display=swap" rel="stylesheet">
     <script src="Script.js"></script>
-    <script src="Gallery.js"></script>
+   
 
    
     <title>ACM-SIGAI TCET</title>
@@ -206,30 +206,6 @@ if (isset($_POST['submit'])) {
 </script>
 </section>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br><br>
-<br>
-<br>
-
 
 
    <!-- ----------------------------------publication section Begins Here ------------------------------------- -->
@@ -239,6 +215,7 @@ if (isset($_POST['submit'])) {
     </section> -->
 
     <!-- ----------------------------Gallery section------------------------- -->
+    <section class="gallery">
     <div class="wrapper">
       <h1 class="gallery-heading">Gallery</h1>
       <div class="carousel">
@@ -255,18 +232,10 @@ if (isset($_POST['submit'])) {
         <i id="right" class="fas fa-angle-right"></i>
       </div>
     </div>
+    <script src="Gallery.js"></script>
+    </section>
 
 
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    <br>
-    <br>
     <br>
 
 
