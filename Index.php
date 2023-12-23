@@ -102,8 +102,8 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="Gallery.css">
     <link rel="stylesheet" href="contact.css" />
-    <link rel="stylesheet" href="style4events.css" />
-
+    <link rel="stylesheet" href="magazine.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -205,6 +205,37 @@ if (isset($_POST['submit'])) {
 </script>
 </section>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+
+
+
+   <!-- ----------------------------------publication section Begins Here ------------------------------------- -->
+
+    <!-- <section id="publications">
+        
+    </section> -->
 
     <!-- ----------------------------Gallery section------------------------- -->
     <div class="wrapper">
@@ -583,6 +614,6 @@ if (isset($_POST['submit'])) {
           </section>
 
     
-
+    <script src="Gallery.js"></script>
 </body>
 </html>
