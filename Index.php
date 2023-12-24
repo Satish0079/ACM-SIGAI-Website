@@ -600,7 +600,7 @@ if (isset($_POST['submit'])) {
                 <div class="post__info">
                     <a href="" class="category__button">Interaction</a>
                     <h3 class="post__title">
-                        <a href="post.html">Expert Interaction Session
+                        <a href="post.html">Expert Interaction Session</a>
                     </h3>
                     <p class="post__body">
                       An Expert Session organized by TSDW & ACM SIG-AI for guidance of students regarding higher Studies and Interaction about Portfolio Development.
@@ -637,10 +637,6 @@ if (isset($_POST['submit'])) {
   </div>
   <!-- End of events section -->
 </section>
-                            <br>
-                            <br>
-                            <br>
-                             <br>
 
    <!-- ----------------------------------publication section Begins Here ------------------------------------- -->
 
