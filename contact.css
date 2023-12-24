@@ -388,6 +388,7 @@ textarea.input {
 /* POP UP style */
 
 .popup {
+  visibility: hidden;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -404,6 +405,7 @@ textarea.input {
   transition: opacity 300ms ease-in-out, transform 300ms cubic-bezier(0.18, 0.89, 0.43, 1.19);
 }
 .popup.active {
+  visibility: visible;
   z-index: 6;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
