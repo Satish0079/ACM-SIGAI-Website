@@ -732,7 +732,7 @@ if (isset($_POST['submit'])) {
                   <div class="input-container">
                     <input type="text" name="name" class="input" required/>
                     <label for="name">Name</label>
-                    <span>Username</span>
+                    <span>Name</span>
                   </div>
 
                   <div class="input-container">
