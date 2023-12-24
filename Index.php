@@ -131,6 +131,9 @@ if (isset($_POST['submit'])) {
     <title>ACM-SIGAI TCET</title>
 </head>
 <body>
+<div class="particle-container">
+    <canvas id="particleCanvas"></canvas>
+  </div>
   <div class="mob-res-div" id="ResDiv">
   <h2 class="responsive-text">ACM SIG-AI</h2>
   <div class="divider"></div>
@@ -153,8 +156,10 @@ if (isset($_POST['submit'])) {
         </div>
         
     </nav>
+
+
 <section id="home"></section>
-<section class="home">
+<section class="home" id="home">
   <div class="home-content">
       <h1>Welcome to</h1>
       <h3>TCET ACM-SIGAI</h3>
@@ -175,8 +180,12 @@ if (isset($_POST['submit'])) {
   <span class="home-imgHover"></span>
 </section>
 
-<!-- <section id="about"></section> -->
+<!-- TEST for particle canvas on light blue part of the webpage -->
+
+  <!-- TEST END -->
+
 <div class="about-us" id="about">
+
   <div class="container">
       <div class="row">
           <div class="flex">
@@ -220,6 +229,8 @@ if (isset($_POST['submit'])) {
 </section>
 <br>
 <div class="hr-team"></div>
+
+
 
 <!-- Team Section -->
 <section class="team">
@@ -837,5 +848,84 @@ if (isset($_POST['submit'])) {
           </section>
 
     <script src="Gallery.js"></script>    
+    <script>
+    function createParticleAnimation(containerSelector) {
+      const container = document.querySelector(containerSelector);
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d');
+      let particlesArray;
+
+      container.appendChild(canvas);
+      canvas.width = container.clientWidth;
+      canvas.height = container.clientHeight * 3;
+
+      class Particle {
+        constructor(x, y, size, color, speedX, speedY) {
+          this.x = x;
+          this.y = y;
+          this.size = size;
+          this.color = color;
+          this.speedX = speedX;
+          this.speedY = speedY;
+        }
+
+        draw() {
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+          ctx.fillStyle = this.color;
+          ctx.fill();
+        }
+
+        update() {
+          if (this.x + this.size > canvas.width || this.x - this.size < 0) {
+            this.speedX = -this.speedX;
+          }
+          if (this.y + this.size > canvas.height || this.y - this.size < 0) {
+            this.speedY = -this.speedY;
+          }
+
+          this.x += this.speedX;
+          this.y += this.speedY;
+          this.draw();
+        }
+      }
+
+      function init() {
+        particlesArray = [];
+        const numberOfParticles = 300;
+
+        for (let i = 0; i < numberOfParticles; i++) {
+          const size = Math.random() * 5 + 1;
+          const x = Math.random() * (canvas.width - size * 2) + size;
+          const y = Math.random() * (canvas.height - size * 2) + size;
+          const speedX = (Math.random() - 0.5) * 2;
+          const speedY = (Math.random() - 0.5) * 2;
+          const color = `hsl(${Math.random() * 360}, 50%, 50%)`;
+
+          particlesArray.push(new Particle(x, y, size, color, speedX, speedY));
+        }
+      }
+
+      function animate() {
+        requestAnimationFrame(animate);
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        for (let i = 0; i < particlesArray.length; i++) {
+          particlesArray[i].update();
+        }
+      }
+
+      window.addEventListener('resize', () => {
+        canvas.width = container.clientWidth;
+        canvas.height = container.clientHeight * 3;
+        init();
+      });
+
+      init();
+      animate();
+    }
+    createParticleAnimation('.particle-container');
+
+  </script>
 </body>
 </html>

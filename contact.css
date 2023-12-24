@@ -17,7 +17,8 @@ textarea {
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
-  background-color :#87C4ff;
+  /* background-color :#87C4ff; */
+  background-color: transparent;
   overflow: hidden;
   display: flex;
   align-items: center;
