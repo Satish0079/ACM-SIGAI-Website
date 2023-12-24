@@ -547,7 +547,7 @@ if (isset($_POST['submit'])) {
                 <div class="post__info">
                     <a href="" class="category__button">Seminars</a>
                     <h3 class="post__title">
-                        <a href="post.html">ACM & SIG-AI National Level Online Seminar</a>
+                        <a href="post.html">ACM SIG-AI National Level Online Seminar</a>
                     </h3>
                     <p class="post__body">
                         A national level online seminar on 'Innovation and Start-up Ecosystem Enablers'
@@ -558,7 +558,7 @@ if (isset($_POST['submit'])) {
                             <img src="./Images_Events/SIG_AI.png" alt="icon">
                         </div>
                         <div class="post__author-info">
-                            <h5>By:ACM & SIG-AI</h5>
+                            <h5>By:ACM SIG-AI</h5>
                             <small>August 21st, 2023</small>
                         </div>
                     </div>
@@ -586,7 +586,7 @@ if (isset($_POST['submit'])) {
                             <img src="./Images_Events/SIG_AI.png" alt="icon">
                         </div>
                         <div class="post__author-info">
-                            <h5>By:ACM & SIG-AI</h5>
+                            <h5>By:ACM SIG-AI</h5>
                             <small>1st November, 2023</small><br>
                             <small>12 pm - 1 pm</small>
                         </div>
@@ -595,24 +595,22 @@ if (isset($_POST['submit'])) {
             </article>
             <article class="post">
                 <div class="post__thumbnail">
-                    <img src="./Images_Events/1.1.jpg" alt="">
+                    <img src="./Images_Events/7.1.jpg" alt="">
                 </div>
                 <div class="post__info">
-                    <a href="" class="category__button">Wild Life</a>
+                    <a href="" class="category__button">Interaction</a>
                     <h3 class="post__title">
-                        <a href="post.html">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit!</a>
+                        <a href="post.html">Expert Interaction Session
                     </h3>
                     <p class="post__body">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente tenetur incidunt quam 
-                        explicabo esse aperiam nesciunt asperiores. Ea, facere 
-                        doloribus.
+                      An Expert Session organized by TSDW & ACM SIG-AI for guidance of students regarding higher Studies and Interaction about Portfolio Development.
                     </p>
                     <div class="post__author">
                         <div class="post__author-avatar">
                             <img src="./Images_Events/SIG_AI.png" alt="icon">
                         </div>
                         <div class="post__author-info">
-                            <h5>By:ACM</h5>
+                            <h5>By:ACM SIG-AI</h5>
                             <small>August 24, 2023</small>
                         </div>
                     </div>
