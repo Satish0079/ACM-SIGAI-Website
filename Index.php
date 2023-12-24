@@ -701,16 +701,16 @@ if (isset($_POST['submit'])) {
                 <div class="social-media">
                   <p>Connect with us :</p>
                   <div class="social-icons">
-                    <a href="www.facebook.com">
+                    <a href="www.facebook.com" class="contact-icons">
                       <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="www.twitter.com">
+                    <a href="www.twitter.com" class="contact-icons">
                       <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="#">
-                      <i class="https://www.instagram.com/tcet_acm.sigai"></i>
+                    <a href="https://www.instagram.com/tcet_acm.sigai" class="contact-icons">
+                      <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://www.linkedin.com/company/tcet-acm-sigai">
+                    <a href="https://www.linkedin.com/company/tcet-acm-sigai" class="contact-icons">
                       <i class="fab fa-linkedin-in"></i>
                     </a>
                   </div>

@@ -247,6 +247,7 @@ ul {
     display: flex;
     align-items: center; 
     padding: 0 10%; 
+    z-index: 0;
     
 }
 /* 
@@ -684,3 +685,9 @@ ul {
         height: 4800px;
       }
   }
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
