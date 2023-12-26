@@ -491,7 +491,7 @@ if (isset($_POST['submit'])) {
                       <p>Chairperson</p>
                   </div>
                   <div class="team__member-socials">
-                      <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                      
                       <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
                   </div>
               </div>
@@ -505,7 +505,7 @@ if (isset($_POST['submit'])) {
                   <p>Vice-Chairperson</p>
               </div>
               <div class="team__member-socials">
-                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  
                   <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
               </div>
           </article>
@@ -518,7 +518,7 @@ if (isset($_POST['submit'])) {
                   <p>Secretary</p>
               </div>
               <div class="team__member-socials">
-                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  
                   <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
               </div>
           </article>
@@ -531,7 +531,7 @@ if (isset($_POST['submit'])) {
                   <p>Event Manager</p>
               </div>
               <div class="team__member-socials">
-                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                 
                   <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
               </div>
           </article>
@@ -544,7 +544,7 @@ if (isset($_POST['submit'])) {
                   <p>Treasurer</p>
               </div>
               <div class="team__member-socials">
-                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  
                   <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
               </div>
           </article>
@@ -557,7 +557,7 @@ if (isset($_POST['submit'])) {
                   <p>Web Master</p>
               </div>
               <div class="team__member-socials">
-                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  
                   <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
               </div>
           </article>
@@ -570,7 +570,7 @@ if (isset($_POST['submit'])) {
                   <p>Sponsorship Head</p>
               </div>
               <div class="team__member-socials">
-                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  
                   <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
               </div>
           </article>
@@ -582,8 +582,7 @@ if (isset($_POST['submit'])) {
                   <h4>Jayant Nag Sai Vasa</h4>
                   <p>Publication Head</p>
               </div>
-              <div class="team__member-socials">
-                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+           <div class="team__member-socials">
                   <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
               </div>
           </article>
@@ -597,7 +596,7 @@ if (isset($_POST['submit'])) {
                   <p>Public Relation Head</p>
               </div>
               <div class="team__member-socials">
-                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  
                   <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
               </div>
           </article>
@@ -610,7 +609,7 @@ if (isset($_POST['submit'])) {
                   <p>Technical Head</p>
               </div>
               <div class="team__member-socials">
-                  <a href="#" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                 
                   <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
               </div>
           </article>
