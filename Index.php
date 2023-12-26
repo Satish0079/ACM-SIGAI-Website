@@ -264,10 +264,6 @@ if (isset($_POST['submit'])) {
     </section>
     <!-- =========================== END OF FEATURED ==================== -->
       
-
-
-
-
     <section class="posts">
         <div class="container post__container">
             <article class="post">
