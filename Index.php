@@ -180,10 +180,7 @@ if (isset($_POST['submit'])) {
   <span class="home-imgHover"></span>
 </section>
 
-<!-- TEST for particle canvas on light blue part of the webpage -->
-
-  <!-- TEST END -->
-
+<section id="typewriter">
 <div class="about-us" id="about">
 
   <div class="container">
@@ -229,6 +226,200 @@ if (isset($_POST['submit'])) {
 </section>
 <br>
 <div class="hr-team"></div>
+
+<!-- Team Section -->
+<section class="team">
+      <div class="cont">
+      <h2 class="teamheading">Meet our Team</h2>
+          <br>
+          <br>
+      <div class="team__container">
+          <article class="team__member">
+              <div class="img">
+                  <div class="team__member-image">
+                      <img src="./Images/alisha.png" width="200px" height="200px">
+                  </div>
+                  <div class="team__member-info">
+                      <h4>Alisha Joseph</h4>
+                      <p>Chairperson</p>
+                  </div>
+                  <div class="team__member-socials">
+                      
+                      <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                  </div>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/vivek.png" width="200px" height="200px">
+              </div>
+              <div class="team__member-info">
+                  <h4>Vivek Pandey</h4>
+                  <p>Vice-Chairperson</p>
+              </div>
+              <div class="team__member-socials">
+                  
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/hamza.png" width="200px" height="200px">
+              </div>
+              <div class="team__member-info">
+                  <h4>Hamza Khan</h4>
+                  <p>Secretary</p>
+              </div>
+              <div class="team__member-socials">
+                  
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/anushka.png" width="200px" height="200px">
+              </div>
+              <div class="team__member-info">
+                  <h4>Anushka Patil</h4>
+                  <p>Event Manager</p>
+              </div>
+              <div class="team__member-socials">
+                 
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/ietisha.png" width="200px" height="200px" >
+              </div>
+              <div class="team__member-info">
+                  <h4>Ietisha Rathod</h4>
+                  <p>Treasurer</p>
+              </div>
+              <div class="team__member-socials">
+                  
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/vaishnavi.png" width="200px" height="200px">
+              </div>
+              <div class="team__member-info">
+                  <h4>Vaishnavi Sirimalla</h4>
+                  <p>Web Master</p>
+              </div>
+              <div class="team__member-socials">
+                  
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/zaheer.png" width="200px" height="200px">
+              </div>
+              <div class="team__member-info">
+                  <h4>Zaheer Khan</h4>
+                  <p>Sponsorship Head</p>
+              </div>
+              <div class="team__member-socials">
+                  
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/jayant.png" width="200px" height="200px">
+              </div>
+              <div class="team__member-info">
+                  <h4>Jayant Nag Sai Vasa</h4>
+                  <p>Publication Head</p>
+              </div>
+           <div class="team__member-socials">
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member fake-after">
+              <div class="team__member-image">
+                  <img src="" width="200px" height="200px">
+              </div>
+              <div class="team__member-info">
+                  <h4></h4>
+                  <p></p>
+              </div>
+              <div class="team__member-socials">
+                 
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+         
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/tej.png" width="200px" height="200px">
+              </div>
+              <div class="team__member-info">
+                  <h4>Tej Parmar</h4>
+                  <p>Public Relation Head</p>
+              </div>
+              <div class="team__member-socials">
+                  
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member fake-before">
+              <div class="team__member-image">
+                  <img src="" width="200px" height="200px">
+              </div>
+              <div class="team__member-info">
+                  <h4></h4>
+                  <p></p>
+              </div>
+              <div class="team__member-socials">
+                 
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+          <article class="team__member">
+              <div class="team__member-image">
+                  <img src="./Images/dhruv.png" width="200px" height="200px">
+              </div>
+              <div class="team__member-info">
+                  <h4>Dhruv Singh</h4>
+                  <p>Technical Head</p>
+              </div>
+              <div class="team__member-socials">
+                 
+                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </article>
+         
+      </div>
+  </div>
+  </section>
+
+    <!-- ----------------------------Gallery section------------------------- -->
+    <section class="gallery">
+    <div class="wrapper">
+      <h1 class="gallery-heading">Gallery</h1>
+      <div class="carousel">
+        <img src="./Images/1.jpg" alt="img" draggable="false">
+        <img src="./Images/2.png" alt="img" draggable="false">
+        <img src="./Images/3.jpg" alt="img" draggable="false">
+        <img src="./Images/4.jpg" alt="img" draggable="false">
+        <img src="./Images/5.jpg" alt="img" draggable="false">
+        <img src="./Images/6.jpg" alt="img" draggable="false">
+        <img src="./Images/7.JPG" alt="img" draggable="false">
+      </div>
+      <div class="arrow-buttons">
+        <i id="left" class="fas fa-angle-left"></i>
+        <i id="right" class="fas fa-angle-right"></i>
+      </div>
+    </div>
+    <script src="Gallery.js"></script>
+    </section>
+
+
+    <br>
 
  <!-- Events Section -->
  <section class="events" id="events">
@@ -459,181 +650,6 @@ if (isset($_POST['submit'])) {
        </div>
     </div>
  
- 
-
-<!-- Team Section -->
-<section class="team">
-      <div class="cont">
-      <h2 class="teamheading">Meet our Team</h2>
-          <br>
-          <br>
-      <div class="team__container">
-          <article class="team__member">
-              <div class="img">
-                  <div class="team__member-image">
-                      <img src="./Images/alisha.png" width="200px" height="200px">
-                  </div>
-                  <div class="team__member-info">
-                      <h4>Alisha Joseph</h4>
-                      <p>Chairperson</p>
-                  </div>
-                  <div class="team__member-socials">
-                      
-                      <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-                  </div>
-              </div>
-          </article>
-          <article class="team__member">
-              <div class="team__member-image">
-                  <img src="./Images/vivek.png" width="200px" height="200px">
-              </div>
-              <div class="team__member-info">
-                  <h4>Vivek Pandey</h4>
-                  <p>Vice-Chairperson</p>
-              </div>
-              <div class="team__member-socials">
-                  
-                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-              </div>
-          </article>
-          <article class="team__member">
-              <div class="team__member-image">
-                  <img src="./Images/hamza.png" width="200px" height="200px">
-              </div>
-              <div class="team__member-info">
-                  <h4>Hamza Khan</h4>
-                  <p>Secretary</p>
-              </div>
-              <div class="team__member-socials">
-                  
-                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-              </div>
-          </article>
-          <article class="team__member">
-              <div class="team__member-image">
-                  <img src="./Images/anushka.png" width="200px" height="200px">
-              </div>
-              <div class="team__member-info">
-                  <h4>Anushka Patil</h4>
-                  <p>Event Manager</p>
-              </div>
-              <div class="team__member-socials">
-                 
-                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-              </div>
-          </article>
-          <article class="team__member">
-              <div class="team__member-image">
-                  <img src="./Images/ietisha.png" width="200px" height="200px" >
-              </div>
-              <div class="team__member-info">
-                  <h4>Ietisha Rathod</h4>
-                  <p>Treasurer</p>
-              </div>
-              <div class="team__member-socials">
-                  
-                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-              </div>
-          </article>
-          <article class="team__member">
-              <div class="team__member-image">
-                  <img src="./Images/vaishnavi.png" width="200px" height="200px">
-              </div>
-              <div class="team__member-info">
-                  <h4>Vaishnavi Sirimalla</h4>
-                  <p>Web Master</p>
-              </div>
-              <div class="team__member-socials">
-                  
-                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-              </div>
-          </article>
-          <article class="team__member">
-              <div class="team__member-image">
-                  <img src="./Images/zaheer.png" width="200px" height="200px">
-              </div>
-              <div class="team__member-info">
-                  <h4>Zaheer Khan</h4>
-                  <p>Sponsorship Head</p>
-              </div>
-              <div class="team__member-socials">
-                  
-                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-              </div>
-          </article>
-          <article class="team__member">
-              <div class="team__member-image">
-                  <img src="./Images/jayant.png" width="200px" height="200px">
-              </div>
-              <div class="team__member-info">
-                  <h4>Jayant Nag Sai Vasa</h4>
-                  <p>Publication Head</p>
-              </div>
-           <div class="team__member-socials">
-                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-              </div>
-          </article>
-         
-          <article class="team__member">
-              <div class="team__member-image">
-                  <img src="./Images/tej.png" width="200px" height="200px">
-              </div>
-              <div class="team__member-info">
-                  <h4>Tej Parmar</h4>
-                  <p>Public Relation Head</p>
-              </div>
-              <div class="team__member-socials">
-                  
-                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-              </div>
-          </article>
-          <article class="team__member">
-              <div class="team__member-image">
-                  <img src="./Images/dhruv.png" width="200px" height="200px">
-              </div>
-              <div class="team__member-info">
-                  <h4>Dhruv Singh</h4>
-                  <p>Technical Head</p>
-              </div>
-              <div class="team__member-socials">
-                 
-                  <a href="#" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-              </div>
-          </article>
-         
-      </div>
-  </div>
-  </section>
-
- 
-
-
-
-
-    <!-- ----------------------------Gallery section------------------------- -->
-    <section class="gallery">
-    <div class="wrapper">
-      <h1 class="gallery-heading">Gallery</h1>
-      <div class="carousel">
-        <img src="./Images/1.jpg" alt="img" draggable="false">
-        <img src="./Images/2.png" alt="img" draggable="false">
-        <img src="./Images/3.jpg" alt="img" draggable="false">
-        <img src="./Images/4.jpg" alt="img" draggable="false">
-        <img src="./Images/5.jpg" alt="img" draggable="false">
-        <img src="./Images/6.jpg" alt="img" draggable="false">
-        <img src="./Images/7.JPG" alt="img" draggable="false">
-      </div>
-      <div class="arrow-buttons">
-        <i id="left" class="fas fa-angle-left"></i>
-        <i id="right" class="fas fa-angle-right"></i>
-      </div>
-    </div>
-    <script src="Gallery.js"></script>
-    </section>
-
-
-    <br>
-
 
  
 <!-- ----------------------------------Contact section Begins Here ------------------------------------- -->

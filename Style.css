@@ -633,18 +633,6 @@ ul {
 
 /* TEST for particles */
 
-  .particle-container {
-    position: absolute;
-    /* margin-top: 729px; */
-    margin-top: 690px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* height: 139.5vh;  */
-    height: 2485px;
-    z-index: 0;
-   
-  }
   canvas {
     display: block;
     position: absolute;
@@ -653,6 +641,15 @@ ul {
     z-index: -1;
     background-color: transparent;
     pointer-events: none;
+  }
+  .particle-container {
+    position: absolute;
+    margin-top: 690px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2300px;
+    z-index: 0;
   }
 
   @media screen and (max-width: 1150px){
@@ -665,24 +662,39 @@ ul {
         height: 2800px;
       }
   }
-  @media screen and (max-width: 1024px){
+  @media screen and (max-width: 1080px){
     .particle-container {
-        height: 3000px;
+        height: 2700px;
       }
   }
-  @media screen and (max-width: 769px){
+  @media screen and (max-width: 1024px){
     .particle-container {
-        height: 3300px;
+        height: 2900px;
+      }
+  }
+  @media screen and (max-width: 840px){
+    .particle-container {
+        height: 3150px;
       }
   }
   @media screen and (max-width: 600px){
     .particle-container {
-        height: 4200px;
+        height: 4080px;
       }
   }
   @media screen and (max-width: 580px){
     .particle-container {
-        height: 4800px;
+        height: 4200px;
+      }
+  }
+  @media screen and (max-width: 544px){
+    .particle-container {
+        height: 4900px;
+      }
+  }
+  @media screen and (max-width: 480px){
+    .particle-container {
+        height: 4700px;
       }
   }
 
