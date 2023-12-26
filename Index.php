@@ -429,16 +429,7 @@ if (isset($_POST['submit'])) {
 
 
 
-    <section class="category__buttons">
-    <div class="category__buttons-container">
-        <a href="" class="category__button">Fiestas</a>
-        <a href="" class="category__button">IV Visits</a>
-        <a href="" class="category__button">Seminars</a>
-        <a href="" class="category__button">Interaction</a>
-        <a href="" class="category__button">Competitions</a>
-        <a href="" class="category__button">Talks</a>
-      </div>
-    </section> 
+   
     <!-- =========================== END OF CATEGORIES ==================== -->
 
   </div>
