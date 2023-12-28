@@ -1,85 +1,88 @@
 /* Import Google font - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+.gallery {
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+}
 
- .gallery {
-    margin-top: 100px;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .wrapper {
-    
-    display: flex;
-    max-width: 1200px;
-    position: relative;
-    margin: auto;
-    align-items: center;
-    flex-direction: column; 
-  }
-  
-  .gallery-heading {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
-    color: #3887be;
-    margin-bottom: 10px;
-  }
+.wrapper {
+  display: flex;
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+}
 
-  .carousel {
-    font-size: 0px;
-    cursor: pointer;
-    overflow: hidden;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-    position: relative;
-    margin-top: 20px;
-    border-radius: 15px;
-  }
+.gallery-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #3887be;
+  margin-bottom: 10px;
+}
 
+.carousel {
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.carousel img {
+  height: 340px;
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+  border-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.carousel img:first-child {
+  margin-left: 0px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.carousel img:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+@media screen and (max-width: 900px) {
   .carousel img {
-    height: 340px;
-    object-fit: cover;
-    user-select: none;
-    margin-left: 14px;
-    width: calc(100% / 3);
-    border-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    width: calc(100% / 2);
   }
-  
-  .carousel img:first-child {
-    margin-left: 0px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
+}
 
-  .carousel img:last-child {
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+@media screen and (max-width: 550px) {
+  .carousel img {
+    width: 100%;
   }
+}
 
-  @media screen and (max-width: 900px) {
-    .carousel img {
-      width: calc(100% / 2);
-    }
-  }
-  
-  @media screen and (max-width: 550px) {
-    .carousel img {
-      width: 100%;
-    }
-  }
-  
-  .arrow-buttons {
+.arrow-buttons {
+  display: flex;
+  margin-top: 10px;
+}
+
+#left,
+#right {
+  color: #343f4f;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 20px 10px;
+}
+@media screen and (max-width: 726px) {
+  .copyright-wrapper {
     display: flex;
-    margin-top: 10px; 
+    justify-content: center;
+    align-items: center;
   }
-  
-  #left,
-  #right {
-    color: #343F4F;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin: 20px 10px; 
-  }
-  
-  
+}
