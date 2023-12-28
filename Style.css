@@ -632,33 +632,33 @@ canvas {
   top: 0;
   left: 0;
   width: 100%;
-  height: 2300px;
+  height: 2200px;
   z-index: 0;
 }
 
 @media screen and (max-width: 1150px) {
   .particle-container {
-    height: 2600px;
+    height: 2200px;
   }
 }
 @media screen and (max-width: 1100px) {
   .particle-container {
-    height: 2800px;
+    height: 2100px;
   }
 }
 @media screen and (max-width: 1080px) {
   .particle-container {
-    height: 2700px;
+    height: 2500px;
   }
 }
 @media screen and (max-width: 1024px) {
   .particle-container {
-    height: 2900px;
+    height: 2700px;
   }
 }
 @media screen and (max-width: 840px) {
   .particle-container {
-    height: 3150px;
+    height: 3000px;
   }
 }
 @media screen and (max-width: 600px) {
